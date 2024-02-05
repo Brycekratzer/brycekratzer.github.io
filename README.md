@@ -1,1 +1,1 @@
-#Bryce kratzer's Github page
+# Bryce's Github Page
