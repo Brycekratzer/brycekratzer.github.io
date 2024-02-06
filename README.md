@@ -1,3 +1,1 @@
-# Bryce's Github Page
-
-Representing Bryce Kratzer, Computer Science Undergraduate pursuing a Machine Learning Emphasis.
+### Representing Bryce Kratzer, a Computer Science Undergraduate attending Boise State University. 
