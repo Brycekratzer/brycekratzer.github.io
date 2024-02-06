@@ -1,3 +1,3 @@
 # Bryce's Github Page
 
-This is my github page. Welcome!
+Representing Bryce Kratzer, Computer Science Undergraduate pursuing a Machine Learning Emphasis.
