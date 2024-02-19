@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryce Kratzer</title>
-    <style>
-        body {
-            background-color: #f1e8df; /* Set the background color here */
-        }
-    </style>
-</head>
-<body>
-    <pre>
-        name: Bryce Kratzer
-        age: 20
-    </pre>
-</body>
-</html>
+theme: One Dark
+title: Background
+description: I'm a Boise State Computer Science student with a passion for Artificial
+Intelligence, excelling in Machine Learning coursework and aiming for
+a career as a Machine Learning Engineer. Driven by a 3.9 GPA and a
+thirst for knowledge, I'm actively seeking connections and
+opportunities to contribute to the AI field's ongoing evolution
