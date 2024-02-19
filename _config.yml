@@ -1,11 +1,19 @@
-midnight:
-  # Main colors
-  primary-color: '#5294E2'                            # Header
-  accent-color: '#E45E65'                             # Accent color
-  dark-primary-color: 'var(--accent-color)'                     # Hyperlinks                     
-  light-primary-color: 'var(--accent-color)'                    # Horizontal line in about
-                                       
-  # Text colors                                  
-  primary-text-color: '#FFFFFF'                           # Primary text colour, here is referencing dark-primary-color
-  text-primary-color: 'var(--primary-text-color)'                 # Primary text colour
-  secondary-text-color: '#5294E2'                         # For secondary titles in
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryce Kratzer</title>
+    <style>
+        body {
+            background-color: #f1e8df; /* Set the background color here */
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        name: Bryce Kratzer
+        age: 20
+    </pre>
+</body>
+</html>
