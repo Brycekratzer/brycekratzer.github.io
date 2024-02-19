@@ -1,7 +1,7 @@
-theme: 
-  title: Background
-  description: I'm a Boise State Computer Science student with a passion for Artificial
-  Intelligence, excelling in Machine Learning coursework and aiming for
-  a career as a Machine Learning Engineer. Driven by a 3.9 GPA and a
-  thirst for knowledge, I'm actively seeking connections and
-  opportunities to contribute to the AI field's ongoing evolution
+remote_theme: pages-themes/cayman
+title: Background
+description: I'm a Boise State Computer Science student with a passion for Artificial
+Intelligence, excelling in Machine Learning coursework and aiming for
+a career as a Machine Learning Engineer. Driven by a 3.9 GPA and a
+thirst for knowledge, I'm actively seeking connections and
+opportunities to contribute to the AI field's ongoing evolution
