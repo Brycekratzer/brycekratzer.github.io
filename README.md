@@ -1,1 +1,2 @@
-### Representing Bryce Kratzer, a Computer Science Undergraduate attending Boise State University. 
+#Welcome to my page
+##Computer Science Undergraduate pursing Machine Learning a emphasis
