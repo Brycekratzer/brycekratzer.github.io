@@ -1,8 +1,10 @@
 # Projects
 
 ### C Programs
-- [Elementary C Program](https://github.com/Brycekratzer/Basic-C-program.git)
-  displays an arrow based on user parameters
+- [Shopping Cart Application](https://github.com/Brycekratzer/Shopping-Cart-Application)
+  This is a simple console-based shopping cart application written in C. It allows users to add and remove
+  items from their shopping cart, view item descriptions, and print an invoice with the total cost.
+  
 - [Writing Assistant](https://github.com/Brycekratzer/Writing-Assistant-C)
   This program is designed to analyze and manipulate user-provided text
 
