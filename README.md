@@ -6,6 +6,8 @@
   impacting player evaluation and draft selection. Ths was an individual project 
   
 ### C Programs
+- [Gradebook Application](https://github.com/Brycekratzer/Files-And-Pointers-C/tree/main)
+  This program is a gradebook management system that reads student data from a CSV file and performs various operations on the data. The program is written in C and consists of a main         function and several supporting functions and data structures.
 - [Shopping Cart Application](https://github.com/Brycekratzer/Shopping-Cart-Application)
   This is a simple console-based shopping cart application written in C. It allows users to add and remove
   items from their shopping cart, view item descriptions, and print an invoice with the total cost.
