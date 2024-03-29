@@ -14,6 +14,9 @@
   This program is designed to analyze and manipulate user-provided text
 
 ### Java Programs
+- [Linear Probing and Double Hashing Implementation](https://github.com/Brycekratzer/HashTable-Implementation)
+  This project implements hash tables in Java using linear probing and double hashing. The hash tables store HashObject instances with keys, frequencies, and probe counts. It also includes    a TwinPrimeGenerator to find twin primes within a given range
+  
 - [MaxHeap Data Structure Implementation](https://github.com/Brycekratzer/MaxHeap-Implementation)
   This project implements a priority queue using a max-heap array to simulate task management in Stardew Valley. Tasks are prioritized based on their importance and time of creation,          allowing efficient scheduling within the game environment. The provided classes and interfaces facilitate task generation and queue management for a realistic simulation of the game's       task prioritization system.
   
