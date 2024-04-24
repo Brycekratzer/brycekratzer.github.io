@@ -4,15 +4,20 @@ body {
   color: #ccc;
 }
 
-h1 {
+h1.display-4.mb-3{
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 500%;
   color: #03669c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(6, 71, 132);
 }
 
 .subtitle {
   font-family: 'Poppins', sans-serif;
   font-style: italic;
   font-size: 150%;
+  font-weight: 400;
   color: #dd7506;
 }
 
