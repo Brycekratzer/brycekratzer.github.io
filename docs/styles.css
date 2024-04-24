@@ -4,7 +4,7 @@ body {
   color: #ccc;
 }
 
-h1.display-4 mb-3{
+h1.display-4.mb-3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 500%;
