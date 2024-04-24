@@ -1,50 +1,53 @@
 body {
-  background-color: #0a0a0a;
-  font-family: 'Roboto', sans-serif;
+  background-color: #0e0e0f;
+  font-family: 'Poppins', sans-serif;
   color: #ccc;
 }
 
 h1 {
-  font-family: 'futureFont', sans-serif;
-  color: #ff4d4d;
-  text-shadow: 0 0 5px #ff4d4d;
+  font-family: 'Poppins', sans-serif;
+  color: #03669c
 }
 
 .subtitle {
-  color: #ff944d;
-  text-shadow: 0 0 5px #ff944d;
+  color: #dd7506;
+  font-variant: inherit;
+  font-weight: 300;
 }
 
 .box {
-  background-color: #1a1a1a;
+  background-color: #161719;
   border-radius: 10px;
-  box-shadow: 0 0 10px #ff4d4d;
+  box-shadow: 0 0 10px #361b05;
   transition: box-shadow 0.3s ease;
 }
 
 .box:hover {
-  box-shadow: 0 0 20px #ff4d4d;
+  box-shadow: 0 0 10px #636262;
 }
 
 .box.java,
 .box.c,
 .box.personal {
-  box-shadow: 0 0 10px #ff8c00;
+  box-shadow: 0 0 5px rgb(5, 30, 54)
 }
 
 .box.java:hover,
 .box.c:hover,
 .box.personal:hover {
-  box-shadow: 0 0 20px #ff8c00;
+  box-shadow: 0 0 15px rgb(6, 71, 132);
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  color: #ff944d;
-  text-shadow: 0 0 5px #ff944d;
+  font-weight: 400;
+  color: #dd7506;
 }
 
 a {
   color: #ccc;
   text-decoration: none;
+}
+
+.boxhead{
+  color: #03669c
 }
