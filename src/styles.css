@@ -2,38 +2,22 @@ body {
   background-color: #0a0a0a;
   font-family: 'Roboto', sans-serif;
   color: #ccc;
-  margin: 0;
-  padding: 20px;
 }
 
 h1 {
-  font-family: 'futureFont';
-  font-size: 60px;
-  text-align: center;
+  font-family: 'futureFont', sans-serif;
   color: #ff4d4d;
   text-shadow: 0 0 5px #ff4d4d;
 }
 
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #ccc;
-}
-
-p {
-  font-weight: 300;
-}
-
-a {
-  color: #ccc;
-  text-decoration: none;
+.subtitle {
+  color: #ff944d;
+  text-shadow: 0 0 5px #ff944d;
 }
 
 .box {
   background-color: #1a1a1a;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
   box-shadow: 0 0 10px #ff4d4d;
   transition: box-shadow 0.3s ease;
 }
@@ -45,7 +29,6 @@ a {
 .box.java,
 .box.c,
 .box.personal {
-  background-color: #1a1a1a;
   box-shadow: 0 0 10px #ff8c00;
 }
 
@@ -55,36 +38,13 @@ a {
   box-shadow: 0 0 20px #ff8c00;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-family: 'Roboto';
-  text-align: center;
-  color: #ff944d;
-  text-shadow: 0 0 5px #ff944d;
-}
-
 h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-  font-family: 'Roboto';
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
   color: #ff944d;
   text-shadow: 0 0 5px #ff944d;
-  
 }
 
-ul li {
-  margin-bottom: 20px;
-}
-
-ul li p {
-  margin-top: 5px;
+a {
+  color: #ccc;
+  text-decoration: none;
 }
