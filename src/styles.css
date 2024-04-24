@@ -6,13 +6,14 @@ body {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  color: #03669c
+  color: #03669c;
 }
 
 .subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 150%;
   color: #dd7506;
-  font-variant: inherit;
-  font-weight: 300;
 }
 
 .box {
