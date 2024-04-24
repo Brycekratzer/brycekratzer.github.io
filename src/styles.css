@@ -9,8 +9,6 @@ h1.display-4.mb-3 {
   font-weight: 500;
   font-size: 500%;
   color: #03669c;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgb(6, 71, 132);
 }
 
 .subtitle {
