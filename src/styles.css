@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'squareFont';
-  src: url('fonts/robot_roc/Robot_Roc.otf') format('opentype');
+  src: url('src/fonts/robot_roc/Robot_Roc.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'futureFont';
-  src: url('fonts/ethnocentric/ethnocentric_rg_it.otf') format('opentype');
+  src: url('src/fonts/ethnocentric/ethnocentric_rg_it.otf') format('opentype');
 }
 
 body {
