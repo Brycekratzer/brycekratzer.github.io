@@ -3,28 +3,44 @@ html
   head
     title Bryce Kratzer
     link(rel='stylesheet', href='styles.css')
+    link(href='https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@300;400&display=swap', rel='stylesheet')
   body
     header
-      h1 Bryce Kratzer
-      p Computer Science Undergraduate Attending Boise State University with an Emphasis in Machine Learning
+      .box
+        h1 Bryce Kratzer
+        p Computer Science with Machine Learning
     main
       section
-        h2 Projects
-        ul
-          li
-            h3 Data Analysis Project
-            ul
-              li An analysis of the Top 10 NFL draft slots over the past couple years This study aimed to investigate the potential correlation between NFL Draft position within the top 10 selections and subsequent player performance. To achieve this objective, I analyzed various factors impacting player evaluation and draft selection. Ths was an individual project
-          li
-            h3 C Programs
-            ul
-              li Gradebook Application This program is a gradebook management system that reads student data from a CSV file and performs various operations on the data. The program is written in C and consists of a main function and several supporting functions and data structures.
-              li Shopping Cart Application This is a simple console-based shopping cart application written in C. It allows users to add and remove items from their shopping cart, view item descriptions, and print an invoice with the total cost.
-              li Writing Assistant This program is designed to analyze and manipulate user-provided text
-          li
-            h3 Java Programs
-            ul
-              li Linear Probing and Double Hashing Implementation This project implements hash tables in Java using linear probing and double hashing. The hash tables store HashObject instances with keys, frequencies, and probe counts. It also includes a TwinPrimeGenerator to find twin primes within a given range
-              li MaxHeap Data Structure Implementation This project implements a priority queue using a max-heap array to simulate task management in Stardew Valley. Tasks are prioritized based on their importance and time of creation, allowing efficient scheduling within the game environment. The provided classes and interfaces facilitate task generation and queue management for a realistic simulation of the game's task prioritization system.
-              li Double Linked List Implementation The program is a double linked list implementation of a simulated one-level Cache and two-level Cache
-              li Stack and Queue Implementation The following is an implementation of a queue and stack data structure.
+        .box.java
+          h2 Java Programs
+          ul
+            li
+              a(href='https://github.com/Brycekratzer/HashTable-Implementation') Linear Probing and Double Hashing Implementation
+              p This project implements hash tables in Java using linear probing and double hashing. The hash tables store HashObject instances with keys, frequencies, and probe counts. It also includes a TwinPrimeGenerator to find twin primes within a given range.
+            li
+              a(href='https://github.com/Brycekratzer/MaxHeap-Implementation') MaxHeap Data Structure Implementation
+              p This project implements a priority queue using a max-heap array to simulate task management in Stardew Valley. Tasks are prioritized based on their importance and time of creation, allowing efficient scheduling within the game environment.
+            li
+              a(href='https://github.com/Brycekratzer/Double-Linked-List-Implementation') Double Linked List Implementation
+              p The program is a double linked list implementation of a simulated one-level Cache and two-level Cache.
+            li
+              a(href='https://github.com/Brycekratzer/Stack_and_Queue_Implementation') Stack and Queue Implementation
+              p The following is an implementation of a queue and stack data structure.
+        .box.c
+          h2 C Programs
+          ul
+            li
+              a(href='https://github.com/Brycekratzer/Files-And-Pointers-C/tree/main') Gradebook Application
+              p This program is a gradebook management system that reads student data from a CSV file and performs various operations on the data. The program is written in C and consists of a main function and several supporting functions and data structures.
+            li
+              a(href='https://github.com/Brycekratzer/Shopping-Cart-Application') Shopping Cart Application
+              p This is a simple console-based shopping cart application written in C. It allows users to add and remove items from their shopping cart, view item descriptions, and print an invoice with the total cost.
+            li
+              a(href='https://github.com/Brycekratzer/Writing-Assistant-C') Writing Assistant
+              p This program is designed to analyze and manipulate user-provided text.
+        .box.personal
+          h2 Personal Programs
+          ul
+            li
+              a(href='https://docs.google.com/presentation/d/1tRLaoVIrmgFp3AA8nEjKEp7hcsZ-tujx42oi-JyUCPY/edit?usp=sharing') Data Analysis Project
+              p This study aimed to investigate the potential correlation between NFL Draft position within the top 10 selections and subsequent player performance. To achieve this objective, I analyzed various factors impacting player evaluation and draft selection. This was an individual project.
