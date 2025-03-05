@@ -76,7 +76,8 @@ function populateSkills(skillsData) {
  */
 function setupContactInfo(contactData) {
     // Set email as contact form action
-    document.getElementById('contact-form').setAttribute('action', `mailto:${contactData.email}`);
+    document.getElementById('contact-form').setAttribute('action', `mailto:${contactData.email}?subject=Portfolio Contact`);
+    document.getElementById('contact-form').setAttribute('enctype', 'text/plain');
     
     // Set social media links
     document.getElementById('linkedin-link').setAttribute('href', contactData.linkedin);
@@ -89,21 +90,7 @@ function setupContactInfo(contactData) {
 function setupContactForm() {
     const form = document.getElementById('contact-form');
     
-    form.addEventListener('submit', function(event) {
-        // Basic form validation is handled by HTML5 required attributes
-        
-        // You could add additional validation here
-        
-        // For a real implementation, you'd need a backend to process this
-        // This is just a placeholder to show how it would work
-        
-        // You could also use a service like Formspree for a static site
-        // Just change the action to your Formspree URL:
-        // form.action = "https://formspree.io/f/your-form-id";
-        
-        // Prevent default form submission for this demo
-        // event.preventDefault();
-        
-        // alert('Form submitted! In a real implementation, this would send an email.');
-    });
+    // Set the form's action to a Formspree endpoint
+    form.setAttribute('action', 'https://formspree.io/f/xwpvggyo');
+    form.setAttribute('method', 'POST');
 }
