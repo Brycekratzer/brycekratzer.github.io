@@ -1,18 +1,18 @@
 {
     "projects": [
       {
-        "title": "Example1",
+        "title": "BTree Based DNA Sequence Frequency Analysis",
         "type": "School Project",
-        "description": "Created a machine learning classifier that predicts customer churn with 87% accuracy using random forests.",
-        "technologies": ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
-        "image": "images/projects/ml-project.jpg"
+        "description": "The GeneBankSearchBTree program takes command-line arguments to specify the B-tree file, query file, and other parameters. It then searches for DNA sequences in the B-tree index and computes their frequencies. The program utilizes a custom B-tree implementation and supports features like caching for improved performance.",
+        "technologies": ["Java", "Gradle", "SQL"],
+        "image": "images/projects/btree_photo.jpg"
       },
       {
-        "title": "Example2",
-        "type": "Personal Project",
-        "description": "Designed and built a responsive portfolio website to showcase my work and skills.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "image": "images/projects/website-project.jpg"
+        "title": "Economic Indicator & Market Risk Analytics Dashboard",
+        "type": "Data Science Portfolio Project",
+        "description": "Built a comprehensive financial analytics system that integrates multiple economic indicators (unemployment rates, housing metrics, interest rates, stock market performance) to detect hidden market vulnerabilities. Created custom composite metrics including Housing Stress Index, Financial Health Indicator, and Market Pressure signals that provide early warning of potential economic downturns. The dashboard compares current economic conditions against historical crisis periods to identify troubling patterns before they become apparent in traditional indicators. Features multiple time windows (30/90/150 days) for trend analysis and stress testing.",
+        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Federal Reserve API", "Yahoo Finance API", "Jupyter Notebooks", "Time-Series Analysis", "Statistical Modeling"],
+        "image": "images/projects/economic_analysis_photo.jpg"
       }
     ],
     
