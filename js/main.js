@@ -75,9 +75,6 @@ function populateSkills(skillsData) {
  * @param {Object} contactData - The contact data object
  */
 function setupContactInfo(contactData) {
-    // Set email as contact form action
-    document.getElementById('contact-form').setAttribute('enctype', 'text/plain');
-    
     // Set social media links
     document.getElementById('linkedin-link').setAttribute('href', contactData.linkedin);
     document.getElementById('instagram-link').setAttribute('href', contactData.instagram);
@@ -87,9 +84,5 @@ function setupContactInfo(contactData) {
  * Sets up the contact form submission
  */
 function setupContactForm() {
-    const form = document.getElementById('contact-form');
-    
-    // Set the form's action to a Formspree endpoint
-    form.setAttribute('action', 'https://formspree.io/f/xwpvggyo');
-    form.setAttribute('method', 'POST');
+    console.log("Contact form is ready to use with Formspree");
 }
