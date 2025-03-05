@@ -17,32 +17,32 @@
     ],
     
     "aboutMe": {
-      "bio": "I'm a passionate software developer with a focus on machine learning and web technologies. Currently pursuing my degree in Computer Science.",
-      "education": "Bachelor of Science in Computer Science, University of XYZ (Expected 2025)"
+      "bio": "Computer science student at Boise State University with a 3.83 GPA, graduating Spring 2026. I specialize in Machine Learning, Sports Analytics, and Data Science with strong foundations in NLP, Linear Algebra, and Statistics. Currently pursuing a certificate in Generative AI to complement my academic coursework. Proficient in Python and Java, with working experience in R, JavaScript, HTML/CSS, C, and Go. My project experience includes fine-tuning NLP models like BERT and ELECTRA, implementing a B-Tree for gene analysis, and developing a snow prediction model using ordinal regression. I gained valuable industry experience during my Summer 2024 internship with a sports analytics startup, where I processed large datasets using Python libraries and built an RNN with TensorFlow for predicting basketball game outcomes. Looking forward to expanding my skills during my upcoming application development internship with JB Hunt Transportation in Summer 2025. Born and raised in Idaho, I'm passionate about transforming complex data into actionable insights. My goal is to establish myself in data engineering or data science roles, with long-term aspirations to advance into Machine Learning Engineering for quantitative and time series analytics.",
+      "education": "Bachelor of Science in Computer Science with Emphasis in Machine Learning, Boise State University (Expected 2026)"
     },
     
     "skills": [
       {
         "category": "Programming Languages",
-        "items": ["Python", "JavaScript", "HTML/CSS", "Java"]
+        "items": ["Python", "Java", "C", "JavaScript", "HTML/CSS", "Java", "Go"]
       },
       {
         "category": "Frameworks & Libraries",
-        "items": ["React", "TensorFlow", "Scikit-learn", "Node.js"]
+        "items": ["TensorFlow", "Scikit-learn", "PyTorch", "Flutter", "Numpy", "Pandas", "Matplotlib"]
       },
       {
         "category": "Topics",
-        "items": ["Machine Learning", "Natural Language Processing", "Web Development"]
+        "items": ["Fine-Tuning Language Models", "Pre-Training Language Models", "Transfer Learning", "Data Preprocessing/Cleaning", "Data Science", "Machine Learning Algorithms", "Natural Language Processing", "Web Development", "App Development"]
       },
       {
         "category": "Certifications",
-        "items": ["AWS Certified Developer", "Google Data Analytics"]
+        "items": ["Hands-on Training in Applied Artificial Intelligence and Machine Learning (NSF)", "Associates in Science (Boise State)"]
       }
     ],
     
     "contact": {
-      "email": "your.email@example.com",
-      "linkedin": "https://linkedin.com/in/yourprofile",
-      "instagram": "https://instagram.com/yourhandle"
+      "email": "flast4402@gmail.com",
+      "linkedin": "https://linkedin.com/in/brycekratzer208",
+      "instagram": "https://instagram.com/kratzar"
     }
   }
