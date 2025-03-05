@@ -75,7 +75,6 @@ To add a new project to your portfolio, follow these steps:
 ### Updating Contact Information
 
 1. **Open the projects.json file:**
-   - Navigate to the `contact` section
    - Update your email and social media links
 
 ## Deploying Your Site
