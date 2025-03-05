@@ -76,7 +76,6 @@ function populateSkills(skillsData) {
  */
 function setupContactInfo(contactData) {
     // Set email as contact form action
-    document.getElementById('contact-form').setAttribute('action', `mailto:${contactData.email}?subject=Portfolio Contact`);
     document.getElementById('contact-form').setAttribute('enctype', 'text/plain');
     
     // Set social media links
