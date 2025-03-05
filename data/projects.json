@@ -1,0 +1,48 @@
+{
+    "projects": [
+      {
+        "title": "Example1",
+        "type": "School Project",
+        "description": "Created a machine learning classifier that predicts customer churn with 87% accuracy using random forests.",
+        "technologies": ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+        "image": "images/projects/ml-project.jpg"
+      },
+      {
+        "title": "Example2",
+        "type": "Personal Project",
+        "description": "Designed and built a responsive portfolio website to showcase my work and skills.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "image": "images/projects/website-project.jpg"
+      }
+    ],
+    
+    "aboutMe": {
+      "bio": "I'm a passionate software developer with a focus on machine learning and web technologies. Currently pursuing my degree in Computer Science.",
+      "education": "Bachelor of Science in Computer Science, University of XYZ (Expected 2025)"
+    },
+    
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["Python", "JavaScript", "HTML/CSS", "Java"]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "items": ["React", "TensorFlow", "Scikit-learn", "Node.js"]
+      },
+      {
+        "category": "Topics",
+        "items": ["Machine Learning", "Natural Language Processing", "Web Development"]
+      },
+      {
+        "category": "Certifications",
+        "items": ["AWS Certified Developer", "Google Data Analytics"]
+      }
+    ],
+    
+    "contact": {
+      "email": "your.email@example.com",
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "instagram": "https://instagram.com/yourhandle"
+    }
+  }
