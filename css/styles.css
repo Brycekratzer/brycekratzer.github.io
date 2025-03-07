@@ -203,6 +203,15 @@ header .tagline {
 
 .bio {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.bio .education {
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 /* Skills Section */
