@@ -184,10 +184,11 @@ header .tagline {
 }
 
 /* About Me Section */
+/* About Me Section */
 .about-content {
     display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .profile-image {
@@ -205,13 +206,25 @@ header .tagline {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    justify-content: flex-start;
 }
 
 .bio .education {
     font-weight: bold;
     margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-image {
+        margin: 0 auto 20px;
+    }
 }
 
 /* Skills Section */
