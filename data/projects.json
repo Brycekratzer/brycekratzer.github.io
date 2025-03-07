@@ -37,6 +37,10 @@
       {
         "category": "Certifications",
         "items": ["Hands-on Training in Applied Artificial Intelligence and Machine Learning (NSF)", "Associates in Science (Boise State)"]
+      },
+      {
+        "category": "Courses Completed",
+        "items": ["CS 436 \nNatural Language Processing", "MATH 301 \nIntroduction to Linear Algebra", "CS 133 \nIntroduction to Data Science", "CS 233 \nFoundations of Data Science", "CS 321 \nData Structures", "MATH 361 \nProbability and Statistics I"]
       }
     ],
     
