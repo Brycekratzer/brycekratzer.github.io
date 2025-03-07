@@ -332,3 +332,79 @@ footer {
         flex-direction: column;
     }
 }
+
+/* Experience Section */
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experience-content {
+    padding: 30px;
+}
+
+.experience-header {
+    margin-bottom: 15px;
+}
+
+.experience-company {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.experience-period {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.experience-description {
+    margin-bottom: 15px;
+}
+
+.experience-responsibilities {
+    margin-bottom: 15px;
+}
+
+.experience-responsibilities ul {
+    padding-left: 20px;
+}
+
+.experience-responsibilities li {
+    margin-bottom: 5px;
+}
+
+.experience-tech {
+    margin-top: 15px;
+}
+
+.experience-tech-tag {
+    display: inline-block;
+    background-color: var(--light-gray);
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}

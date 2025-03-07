@@ -5,8 +5,9 @@
  * 1. Loading data from the JSON file
  * 2. Populating the about me section
  * 3. Populating the skills section
- * 4. Setting up contact information
- * 5. Form submission handling
+ * 4. Populating the experience section
+ * 5. Setting up contact information
+ * 6. Form submission handling
  */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -22,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Populate Skills section
             populateSkills(data.skills);
+            
+            // Populate Experience section
+            populateExperience(data.experience);
             
             // Set up contact links
             setupContactInfo(data.contact);
@@ -67,6 +71,90 @@ function populateSkills(skillsData) {
         categoryDiv.appendChild(categoryTitle);
         categoryDiv.appendChild(skillList);
         skillsContainer.appendChild(categoryDiv);
+    });
+}
+
+/**
+ * Populates the Experience section with data from JSON
+ * @param {Array} experienceData - The experience data array
+ */
+function populateExperience(experienceData) {
+    const experienceContainer = document.getElementById('experience-container');
+    
+    experienceData.forEach(job => {
+        // Create experience item
+        const experienceItem = document.createElement('div');
+        experienceItem.className = 'experience-item';
+        
+        // Create experience content
+        const experienceContent = document.createElement('div');
+        experienceContent.className = 'experience-content';
+        
+        // Create header with job title and company
+        const header = document.createElement('div');
+        header.className = 'experience-header';
+        
+        const title = document.createElement('h3');
+        title.textContent = job.title;
+        
+        const company = document.createElement('div');
+        company.className = 'experience-company';
+        company.textContent = job.company;
+        
+        const period = document.createElement('span');
+        period.className = 'experience-period';
+        period.textContent = job.period;
+        
+        header.appendChild(title);
+        header.appendChild(company);
+        header.appendChild(period);
+        
+        // Create description
+        const description = document.createElement('p');
+        description.className = 'experience-description';
+        description.textContent = job.description;
+        
+        // Create responsibilities list
+        const responsibilities = document.createElement('div');
+        responsibilities.className = 'experience-responsibilities';
+        
+        const responsibilitiesTitle = document.createElement('h4');
+        responsibilitiesTitle.textContent = 'Responsibilities:';
+        
+        const responsibilitiesList = document.createElement('ul');
+        
+        job.responsibilities.forEach(responsibility => {
+            const item = document.createElement('li');
+            item.textContent = responsibility;
+            responsibilitiesList.appendChild(item);
+        });
+        
+        responsibilities.appendChild(responsibilitiesTitle);
+        responsibilities.appendChild(responsibilitiesList);
+        
+        // Create technologies tags
+        const techDiv = document.createElement('div');
+        techDiv.className = 'experience-tech';
+        
+        const techTitle = document.createElement('h4');
+        techTitle.textContent = 'Technologies:';
+        techDiv.appendChild(techTitle);
+        
+        job.technologies.forEach(tech => {
+            const techTag = document.createElement('span');
+            techTag.className = 'experience-tech-tag';
+            techTag.textContent = tech;
+            techDiv.appendChild(techTag);
+        });
+        
+        // Assemble the experience item
+        experienceContent.appendChild(header);
+        experienceContent.appendChild(description);
+        experienceContent.appendChild(responsibilities);
+        experienceContent.appendChild(techDiv);
+        
+        experienceItem.appendChild(experienceContent);
+        experienceContainer.appendChild(experienceItem);
     });
 }
 
