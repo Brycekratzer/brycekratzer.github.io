@@ -2,14 +2,14 @@
     "projects": [
       {
         "title": "ELECTRA Language Model Fine-tuning for Text Classification",
-        "type": "Machine Learning Portfolio Project",
+        "type": "Machine Learning Academic Project",
         "description": "Implemented and optimized an ELECTRA-based neural network model for text classification tasks. The project involved loading pre-trained ELECTRA model weights, configuring the model architecture with appropriate hidden layers, and fine-tuning on domain-specific datasets. Addressed dimensional mismatch challenges and optimized the token representation extraction to improve classification accuracy.",
-        "technologies": ["PyTorch", "HuggingFace Transformers", "ELECTRA", "Python", "NLP", "Transfer Learning"],
+        "technologies": ["PyTorch","HuggingFace Transformers", "ELECTRA", "Python", "NLP"],
         "image": "images/projects/nlp_pretraining.jpg"
       },
       {
         "title": "BTree Based DNA Sequence Frequency Analysis",
-        "type": "School Project",
+        "type": "Academic Project",
         "description": "The GeneBankSearchBTree program takes command-line arguments to specify the B-tree file, query file, and other parameters. It then searches for DNA sequences in the B-tree index and computes their frequencies. The program utilizes a custom B-tree implementation and supports features like caching for improved performance.",
         "technologies": ["Java", "Gradle", "SQL"],
         "image": "images/projects/btree_photo.jpg"
