@@ -1,9 +1,9 @@
 {
     "projects": [
       {
-        "title": "ELECTRA Language Model Fine-tuning for Text Classification",
+        "title": "ELECTRA Language Model Pre-tuning and Fine-Tuning for Text Classification",
         "type": "Machine Learning Academic Project",
-        "description": "Implemented and optimized an ELECTRA-based neural network model for text classification tasks. The project involved loading pre-trained ELECTRA model weights, configuring the model architecture with appropriate hidden layers, and fine-tuning on domain-specific datasets. Addressed dimensional mismatch challenges and optimized the token representation extraction to improve classification accuracy.",
+        "description": "Implemented and optimized an ELECTRA-based neural network model for text classification tasks. The project involved pre-trained an ELECTRA model weights, configuring the model architecture with appropriate hidden layers, and fine-tuning on domain-specific datasets. Addressed dimensional mismatch challenges and optimized the token representation extraction to improve classification accuracy.",
         "technologies": ["PyTorch","HuggingFace Transformers", "ELECTRA", "Python", "NLP"],
         "image": "images/projects/nlp_pretraining.jpg"
       },
