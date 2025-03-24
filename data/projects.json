@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "title": "Visual Reference Resolution Using Transfer Learning",
+        "type": "Machine Learning Academic Project",
+        "description": "This project uses transfer learning to identify objects in images based on natural language descriptions. I implemented a system that builds individual classifiers for each word in referring expressions, using pre-trained CLIP features combined with spatial information to understand phrases like \"sheep on the right.\" My implementation achieved approximately 50% accuracy on the test set, significantly outperforming random selection baselines of 15-18%. The project demonstrates how combining computer vision and natural language processing can enable machines to understand visual references in human language.",
+        "technologies": ["PyTorch","CLIP", "Logistic Regression", "scikit-learn", "nltk","PIL", "Numpy", "Pandas","Python", "NLP"],
+        "image": "images/projects/grounded-semantics.jpg"
+      },
+      {
         "title": "ELECTRA Language Model Pre-tuning and Fine-Tuning for Text Classification",
         "type": "Machine Learning Academic Project",
         "description": "Implemented and optimized an ELECTRA-based neural network model for text classification tasks. The project involved pre-trained an ELECTRA model weights, configuring the model architecture with appropriate hidden layers, and fine-tuning on domain-specific datasets. Addressed dimensional mismatch challenges and optimized the token representation extraction to improve classification accuracy.",
