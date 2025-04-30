@@ -78,6 +78,7 @@ function setupContactInfo(contactData) {
     // Set social media links
     document.getElementById('linkedin-link').setAttribute('href', contactData.linkedin);
     document.getElementById('instagram-link').setAttribute('href', contactData.instagram);
+    document.getElementById('github-link').setAttribute('href', contactData.github);
 }
 
 /**
