@@ -1,6 +1,20 @@
 {
     "projects": [
       {
+        "title": "J.B. Hunt Application Developer Intern ( Summer 2025 )",
+        "type": "Job Experience",
+        "description":"Collaborated to implement an enhanced document scanning solution using react-native-fast-tflite, react-native-vision-camera, worklets, and frameProcessor. Integrated an advanced ML model developed by the University of Arkansas to replace the existing system, which suffered from poor document quality detection accuracy that resulted in frequent photo retakes, extended approval wait times, and user frustration.",
+        "technologies": ["JavaScript", "React Native", "TensorFlow Lite", "React Native Vision Camera", "Azure DevOps", "Redux", "CocoaPods", "Node Package Manager", "Git", "iOS Development"],
+        "image": "images/projects/jbh_job.jpeg"
+      },
+      {
+        "title": "IDX Data Scientist Intern ( Summer 2025 )",
+        "type": "Job Experience",
+        "description":"Collaborated with a 3-person team to analyze and develop predictive models for housing closing prices in California using MLS data. Utilized Slack for team communication while cleaning and processing datasets, performing feature engineering to identify market trends, and building predictive models using classical machine learning algorithms and neural networks.",
+        "technologies": ["Python", "Pandas", "NumPy", "Git", "Matplotlib", "Slack", "Jupyter Notebooks", "Statistical Modeling"],
+        "image": "images/projects/data_science_intern_2025.webp"
+      },
+      {
         "title": "Economic Dashboard with PatchTST Time Series Forecasting",
         "type": "Machine Learning Personal Project",
         "description":"Developed a fully automated economic dashboard that predicts stock market performance using a state-of-the-art PatchTST (Patch Time Series Transformer) model. Implemented a multi-stage training pipeline with a pretraining phase using masked modeling followed by fine-tuning for specific market prediction tasks. The model architecture features patch-based time series segmentation (patch length 20, stride 10) with 4 transformer encoder layers and customized regularization (attention dropout 0.13, feed-forward dropout 0.23). Engineered an autoregressive prediction system with a 3-day horizon that iteratively feeds predictions back into the model for extended forecasting. Applied window-based RobustScaler normalization with a 1.5-year sliding window to handle outliers while preserving temporal context. The system demonstrates model performance transparency by comparing predictions from multiple timeframes (current, week-ago, and 40-days-ago) against actual market performance, allowing users to assess prediction drift and accuracy over time. The entire infrastructure runs on GitHub Actions, automatically updating economic indicators and model predictions every other day.",
@@ -56,7 +70,7 @@
       },
       {
         "category": "Frameworks & Libraries",
-        "items": ["TensorFlow", "Scikit-learn", "PyTorch", "Flutter", "Numpy", "Pandas", "Matplotlib", "D3.js", "Hugging Face Transformers"]
+        "items": ["TensorFlow", "Scikit-learn", "PyTorch", "Flutter", "Numpy", "Pandas", "Matplotlib", "D3.js", "Hugging Face Transformers", "React Native", "Jest", "Azure DevOps", "Microsoft 360"]
       },
       {
         "category": "Topics",
